@@ -1,0 +1,108 @@
+Benchmark Results:
+
+parallel_sum:
+  LEN:     10, Time:    10,388.76 ns
+  LEN:     20, Time:     9,672.72 ns
+  LEN:     50, Time:    10,406.72 ns
+  LEN:    100, Time:    12,974.60 ns
+  LEN:    200, Time:    15,054.15 ns
+  LEN:    400, Time:    20,651.06 ns
+  LEN:    700, Time:    22,193.33 ns
+  LEN:   1000, Time:    20,218.49 ns
+  LEN:   2000, Time:    25,406.81 ns
+  LEN:   3000, Time:    28,265.59 ns
+  LEN:   5000, Time:    33,925.55 ns
+  LEN:   7000, Time:    36,770.54 ns
+  LEN:  10000, Time:    37,860.64 ns
+  LEN:  15000, Time:    40,668.68 ns
+  LEN:  20000, Time:    45,608.58 ns
+  LEN:  30000, Time:    50,505.03 ns
+  LEN:  50000, Time:    65,571.67 ns
+  LEN:  75000, Time:    87,732.90 ns
+  LEN: 100000, Time:    99,675.75 ns
+
+serial_sum:
+  LEN:     10, Time:         0.21 ns
+  LEN:     20, Time:         0.21 ns
+  LEN:     50, Time:         0.21 ns
+  LEN:    100, Time:       312.17 ns
+  LEN:    200, Time:       640.41 ns
+  LEN:    400, Time:     1,253.54 ns
+  LEN:    700, Time:     2,192.56 ns
+  LEN:   1000, Time:     3,117.84 ns
+  LEN:   2000, Time:     6,447.24 ns
+  LEN:   3000, Time:     9,653.01 ns
+  LEN:   5000, Time:    16,285.01 ns
+  LEN:   7000, Time:    21,943.58 ns
+  LEN:  10000, Time:    31,145.80 ns
+  LEN:  15000, Time:    48,251.09 ns
+  LEN:  20000, Time:    64,899.33 ns
+  LEN:  30000, Time:    96,583.58 ns
+  LEN:  50000, Time:   161,116.20 ns
+  LEN:  75000, Time:   241,336.10 ns
+  LEN: 100000, Time:   313,131.86 ns
+
+thread1_sum:
+  LEN:     10, Time:    25,474.92 ns
+  LEN:     20, Time:    26,632.74 ns
+  LEN:     50, Time:    27,824.20 ns
+  LEN:    100, Time:    25,271.15 ns
+  LEN:    200, Time:    27,416.62 ns
+  LEN:    400, Time:    26,695.24 ns
+  LEN:    700, Time:    27,944.38 ns
+  LEN:   1000, Time:    29,703.38 ns
+  LEN:   2000, Time:    33,806.51 ns
+  LEN:   3000, Time:    38,320.67 ns
+  LEN:   5000, Time:    45,909.02 ns
+  LEN:   7000, Time:    54,459.02 ns
+  LEN:  10000, Time:    68,651.85 ns
+  LEN:  15000, Time:    90,059.17 ns
+  LEN:  20000, Time:   112,849.10 ns
+  LEN:  30000, Time:   159,975.33 ns
+  LEN:  50000, Time:   255,952.54 ns
+  LEN:  75000, Time:   390,134.69 ns
+  LEN: 100000, Time:   526,185.56 ns
+
+thread4_sum:
+  LEN:     10, Time:    59,846.16 ns
+  LEN:     20, Time:    63,413.51 ns
+  LEN:     50, Time:    67,546.73 ns
+  LEN:    100, Time:    60,356.17 ns
+  LEN:    200, Time:    68,236.33 ns
+  LEN:    400, Time:    59,458.18 ns
+  LEN:    700, Time:    60,386.33 ns
+  LEN:   1000, Time:    67,576.38 ns
+  LEN:   2000, Time:    61,937.46 ns
+  LEN:   3000, Time:    63,294.25 ns
+  LEN:   5000, Time:    68,217.50 ns
+  LEN:   7000, Time:    72,012.53 ns
+  LEN:  10000, Time:    70,387.17 ns
+  LEN:  15000, Time:    78,373.16 ns
+  LEN:  20000, Time:    82,228.13 ns
+  LEN:  30000, Time:    94,391.52 ns
+  LEN:  50000, Time:   107,933.07 ns
+  LEN:  75000, Time:   128,132.94 ns
+  LEN: 100000, Time:   157,757.71 ns
+
+thread16_sum:
+  LEN:     10, Time:   128,687.91 ns
+  LEN:     20, Time:   140,162.18 ns
+  LEN:     50, Time:   186,437.52 ns
+  LEN:    100, Time:   190,619.46 ns
+  LEN:    200, Time:   211,059.45 ns
+  LEN:    400, Time:   223,721.26 ns
+  LEN:    700, Time:   200,355.92 ns
+  LEN:   1000, Time:   200,060.45 ns
+  LEN:   2000, Time:   203,278.42 ns
+  LEN:   3000, Time:   199,014.47 ns
+  LEN:   5000, Time:   198,488.48 ns
+  LEN:   7000, Time:   208,262.63 ns
+  LEN:  10000, Time:   207,958.68 ns
+  LEN:  15000, Time:   208,098.83 ns
+  LEN:  20000, Time:   218,644.00 ns
+  LEN:  30000, Time:   240,280.80 ns
+  LEN:  50000, Time:   221,671.05 ns
+  LEN:  75000, Time:   226,500.95 ns
+  LEN: 100000, Time:   247,672.93 ns
+
+Saved results as parallel_benchmark_results.png
