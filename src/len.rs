@@ -1,1 +1,2 @@
-pub const LEN: usize = 100000;
+pub const LEN: usize = 1;
+pub const MLEN: usize = 1;
